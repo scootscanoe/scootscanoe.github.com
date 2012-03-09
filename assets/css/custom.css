@@ -18,7 +18,7 @@
   color: white;
 }
 
-.dropdown .caret:hover {
+.dropdown .caret > b:hover {
   color: #c90000;
 }
 
