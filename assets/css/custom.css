@@ -11,12 +11,20 @@
   font-style: normal;
 }
 
-.coolfont {
+.navbar .brand {
   font-family: Motorwerk, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #c90000;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 40px;
 }
 
-.coolred {
-  color: #c90000
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+  color: #c90000;
+}
+
+.navbar .nav > a {
+  font-family: Motorwerk, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Push the footer down
@@ -50,13 +58,13 @@ h3 {
   padding-bottom: 5px;
 }
 
-/* Labs icon
+/* SC icon
 -------------------------------------------------- */
 
 .icon-sc-white-navbar {
-  width: 22px;
-  height: 22px;
-  line-height: 22px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   background-position: 0px 0px;
   background-image: url("../img/sc-icon-white-40.png");
   background-size: 100% 100%;
@@ -78,7 +86,7 @@ a:hover i.icon-lab {
   background-image: url("../img/lab-icon-white.png");
 }
 
-a:hover i.icon-lab-white-navbar {
+a:hover i.icon-sc-white-navbar {
   background-image: url("../img/lab-icon-white-40.png");
 }
 
