@@ -12,7 +12,7 @@
 }
 
 */ Random stuff
--------------------------------------------------- */
+-------------------------------------------------- 
 
 .navbar .nav .dropdown-toggle > a:hover .caret, .navbar .nav .open.dropdown > a:hover .caret {
   border-top-color: #c90000;
@@ -41,11 +41,11 @@
   background-color: #C90000;
 }
 
-.whitecolor {
+.navbar .nav .active > a, .navbar .nav .active > a:hover .whitecolor, .navbar .nav > li > a:hover .whitecolor {
   color: white;
 }
 
-/*.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
   color: white;
 }*/
 
