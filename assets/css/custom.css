@@ -17,13 +17,14 @@
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 40px;
+  margin-top: -10px;
 }
 
 .navbar .nav .active > a, .navbar .nav .active > a:hover {
   color: #c90000;
 }
 
-.navbar .nav > a {
+.navbar .nav > li > a {
   font-family: Motorwerk, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
