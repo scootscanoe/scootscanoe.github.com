@@ -14,11 +14,7 @@
 */ Random stuff
 -------------------------------------------------- */
 
-.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
-  color: white;
-}
-
-.navbar .nav .dropdown-toggle .caret, .navbar .nav .open.dropdown .caret {
+.navbar .nav .dropdown-toggle:hover .caret, .navbar .nav .open.dropdown:hover .caret {
   border-top-color: #c90000;
 }
 
@@ -43,6 +39,10 @@
   color: white;
   text-decoration: none;
   background-color: #C90000;
+}
+
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+  color: white;
 }
 
 /* Push the footer down
