@@ -11,6 +11,17 @@
   font-style: normal;
 }
 
+*/ Random stuff
+-------------------------------------------------- */
+
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+  color: white;
+}
+
+.dropdown .caret:hover {
+  color: #c90000;
+}
+
 .navbar .brand {
   font-family: Motorwerk, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #c90000;
@@ -75,7 +86,7 @@ h3 {
   background-position: 0px 0px;
   background-image: url("../img/sc-icon-white-40.png");
   background-size: 100% 100%;
-  margin-bottom: -5px;
+  margin-bottom: -15px;
 }
 
 .icon-lab {
