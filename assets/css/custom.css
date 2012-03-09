@@ -520,11 +520,11 @@ hr.soften {
 /* LARGE DESKTOP SCREENS */
 @media (min-width: 1210px) {
 
-  /* 300x300 thumbnails look better with a bit of top padding */
+  /* 300x300 thumbnails look better with a bit of top padding
   .thumbnail > img {
     padding-top: 25px;
     padding-bottom: 10px;
-  }
+  }*/
 
   /* Update subnav container */
   .subnav-fixed .nav {
