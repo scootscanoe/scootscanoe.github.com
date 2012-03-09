@@ -18,8 +18,8 @@
   color: white;
 }
 
-.dropdown .caret > b:hover {
-  color: #c90000;
+.navbar .nav .dropdown-toggle .caret, .navbar .nav .open.dropdown .caret {
+  border-top-color: #c90000;
 }
 
 .navbar .brand {
@@ -80,6 +80,7 @@ h3 {
 -------------------------------------------------- */
 
 .icon-sc-white-navbar {
+  display: inline-block;
   width: 30px;
   height: 30px;
   line-height: 30px;
