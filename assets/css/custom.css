@@ -17,15 +17,21 @@
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 40px;
-  margin-top: -10px;
+  margin-top: -5px;
 }
 
-.navbar .nav .active > a, .navbar .nav .active > a:hover {
+.navbar .nav .active > a, .navbar .nav .active > a:hover, .navbar .nav > li > a:hover {
   color: #c90000;
 }
 
 .navbar .nav > li > a {
   font-family: Motorwerk, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #C90000;
 }
 
 /* Push the footer down
@@ -69,6 +75,7 @@ h3 {
   background-position: 0px 0px;
   background-image: url("../img/sc-icon-white-40.png");
   background-size: 100% 100%;
+  margin-bottom: -5px;
 }
 
 .icon-lab {
@@ -88,7 +95,7 @@ a:hover i.icon-lab {
 }
 
 a:hover i.icon-sc-white-navbar {
-  background-image: url("../img/lab-icon-white-40.png");
+  background-image: url("../img/sc-icon-white-40.png");
 }
 
 /* Body and structure
