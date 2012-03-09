@@ -11,7 +11,14 @@
   font-style: normal;
 }
 
-/* Random stuff
+/* New random stuff
+-------------------------------------------------- */
+
+.navbar .brand > i {
+  margin-top: -5px;
+}
+
+/* Old Random stuff
 -------------------------------------------------- 
 
 .navbar .nav .dropdown-toggle > a:hover .caret, .navbar .nav .open.dropdown > a:hover .caret {
