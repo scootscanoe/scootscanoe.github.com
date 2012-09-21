@@ -58,7 +58,9 @@ teamspeak: active
 </table>
 <script src="/assets/js/jquery.min.js"></script>
 <script type="text/javascript">
+  console.log("preparing document")
   $(document).ready( function() {
+    console.log("loading status")
     $("#tsstatus").html("<p>loading...</p>").load("tsstatus.html", function() {
       console.log("success");
     });
