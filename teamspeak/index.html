@@ -59,10 +59,10 @@ teamspeak: active
 <script src="/assets/js/jquery.min.js"></script>
 <script type="text/javascript">
   $(document).ready( function() {
-    $("#tsstatus").load("tsstatus.html", function() {
+    $("#tsstatus").html("<p>loading...</p>").load("tsstatus.html", function() {
       console.log("success");
     });
-    $("#awsstatus").load("awsstatus.html", function() {
+    $("#awsstatus").html("<p>loading...</p>").load("awsstatus.html", function() {
       console.log("success");
     });
   });
