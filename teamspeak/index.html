@@ -61,10 +61,12 @@ teamspeak: active
   console.log("preparing document")
   $(document).ready( function() {
     console.log("loading status")
-    $("#tsstatus").html("<p>loading...</p>").load("tsstatus.html", function() {
+    $("#tsstatus").html("<p id='its28028'>loading...</p>");
+    $("#awsstatus").html("<p id='its406893'>loading...</p>");
+    $("#tsstatus").load("tsstatus.html", function() {
       console.log("success");
     });
-    $("#awsstatus").html("<p>loading...</p>").load("awsstatus.html", function() {
+    $("#awsstatus").load("awsstatus.html", function() {
       console.log("success");
     });
   });
