@@ -1,0 +1,25 @@
+---
+layout: post
+title: Rotating FC System Yields Immediate Wins
+blog: active
+author: Thomas
+---
+
+This weekend, the Scoot's Canoe Dota 2 Team adopted a new rotating Fleet Commander leadership system. The first two Captain's Mode matches played under the new system were FC'd by Martin and Nathan. Both matches resulted in impressive wins for Scoot's Canoe, providing validation for all the theorycrafting and debate flooding the Scoot's Canoe Skype chat.
+
+<div class="row centered" style="width:100%">
+  <div class="span12" style="width:100%">
+    <ul class="thumbnails" style="width:100%">
+      <li class="span6" style="width:47%">
+        <a href="/assets/img/dota/42611397.jpg" class="thumbnail">
+          <img src="/assets/img/dota/42611397.jpg" alt="">
+        </a>
+      </li>
+      <li class="span6" style="width:47%">
+        <a href="/assets/img/dota/42622090.jpg" class="thumbnail">
+          <img src="/assets/img/dota/42622090.jpg" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
