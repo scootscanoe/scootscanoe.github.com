@@ -10,12 +10,12 @@ This weekend, Valve finally added the much anticipated hero Meepo the Geomancer 
 <div class="row" style="width:100%">
   <div class="span12" style="width:100%">
     <ul class="thumbnails" style="width:100%">
-      <li class="span6" style="width:50%">
+      <li class="span6" style="width:45%">
         <a href="/assets/img/meepo-botmatch.jpg" class="thumbnail">
           <img src="/assets/img/meepo-botmatch.jpg" alt="">
         </a>
       </li>
-      <li class="span6" style="width:50%">
+      <li class="span6" style="width:45%">
         <a href="/assets/img/meepo-matchmaking.jpg" class="thumbnail">
           <img src="/assets/img/meepo-matchmaking.jpg" alt="">
         </a>
