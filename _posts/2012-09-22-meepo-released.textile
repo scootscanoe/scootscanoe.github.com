@@ -6,7 +6,7 @@ author: Thomas
 ---
 
 This weekend, Valve finally added the much anticipated hero Meepo the Geomancer to Dota 2. The Scoot's Canoe Dota 2 Team decided to investigate the hero's abilities in an in house bot match. The image below left speaks for itself, but the one number that sums it up best is Nathan's 989 XP/min. Below right is a featured matchmaking game where Nathan went an impressive 18 and 7 in a 33 minute match.
-
+<div class="row">
   <div class="span12">
     <ul class="thumbnails">
       <li class="span6">
@@ -21,3 +21,4 @@ This weekend, Valve finally added the much anticipated hero Meepo the Geomancer 
       </li>
     </ul>
   </div>
+</div>
