@@ -14,54 +14,39 @@ teamspeak: active
 </div>
 <table class="table table-bordered table-striped">
   <tr>
-    <th width="20%">Server Name</th>
-    <td width="40%">Scoot's Canoe Teamspeak Server</td>
-    <td width="40%">SC Backup TS3 Server</td>
+    <th>Server Name</th>
+    <td>Scoot's Canoe Teamspeak Server</td>
   </tr>
   <tr>
     <th>Teamspeak Version</th>
-    <td>3.0.1</td>
     <td>3.0.6.1</td>
   </tr>
   <tr>
     <th>Platform</th>
-    <td>Windows</td>
     <td>Linux</td>
   </tr>
   <tr>
     <th>Address</th>
     <td>ts.gilgi.org:9001</td>
-    <td>aws.gilgi.org:9001</td>
   </tr>
   <tr>
     <th>IP</th>
-    <td>140.180.130.72</td>
     <td>107.21.94.144</td>
   </tr>
   <tr>
     <th>Port</th>
     <td>9001</td>
-    <td>9001</td>
   </tr>
   <tr>
     <th>Slots</th>
-    <td>32</td>
     <td>32</td>
   </tr>
   <tr>
     <th>Status</th>
     <td id="tsstatus">
-      <div class="progress progress-danger progress-striped active" id='tsbar'>
-        <div class="bar" style="width: 100%;"></div>
-      </div>
-    </td>
-    <td id="awsstatus">
-      <div class="progress progress-danger progress-striped active" id='awsbar'>
-        <div class="bar" style="width: 100%;"></div>
-      </div>
+      <p style="margin:0px" id="tsbar">Checking...</p>
     </td>
   </tr>
 </table>
 
-<script async src="http://gilgiflask.herokuapp.com/tsstatus"></script>
-<script async src="http://gilgiflask.herokuapp.com/awsstatus"></script>
+<script async src="http://flask.gilgi.org/tsstatus/script"></script>
