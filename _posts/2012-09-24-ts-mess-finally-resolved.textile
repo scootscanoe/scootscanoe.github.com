@@ -1,0 +1,8 @@
+---
+layout: post
+title: TS Mess Finally Resolved
+blog: active
+author: Thomas
+---
+
+After a long summer of spotty Teamspeak availability and dissatisfaction with the overly-confusing backup server solution, the Scoot's Canoe Technical Committee has finally gotten around to cleaning up the mess that was the Scoot's Canoe voice communications infrastructure. The old primary Teamspeak server has been officially retired, and the backup Teamspeak server is now the official Teamspeak server. The result is that "ts.gilgi.org:9001":ts3server://ts.gilgi.org/?port=9001&nickname=Guest is _the_ Scoot's Canoe Teamspeak Server and no one has to worry about keeping track of which server is the currently active server. This server is hosted by Amazon for increased uptime and reliability. Finally, the server status shown at "status.gilgi.org":http://status.gilgi.org and at the "Scoot's Canoe Teamspeak server page":/teamspeak is now updated live.
