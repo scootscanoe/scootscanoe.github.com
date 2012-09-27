@@ -7,57 +7,184 @@ internationoob: active
 
 <p>The latest standings for The Internationoob 2012 are shown in the table below. For more details on the competition, please see <a href="/blog/2012/09/22/internationoob-2012-details-revealed/">this blog post</a>.</p>
 
-<script type='text/javascript'>
-//this will be executed after we "fetch" the contents of a spreadsheet. The json parameter will hold our spreadsheet's data
-function displayContent(json) {
-    //start an html table and write out our headers
-    var pre_html = '<table><thead><tr>\
-        <th>Hero</th>\
-        <th>PV</th>\
-        <th>Tritz</th>\
-        <th>Thomas</th>\
-        <th>Mark</th>\
-        <th>Aaron</th>\
-        </tr></thead><tbody>';
-    //Create an empty string to hold the HTML. We will put table data here.
-    var actual_html='';
-    //After we grab the table, close the HTML table.
-    var post_html = '</tbody></table>'
-    //figure out how many rows our spreadsheet has
-    var len = json.feed.entry.length
- 
-    //loop through the spreadsheet, gathering data
-    for (var i=0; i<len; i++) {
-        //for each row, add the following to actual HTML, grabbing it as a list, and then joining the list together as one long string.
-        //Uses HTML for table cells, and then grabs attributes from the spreadsheet, using appropriate syntax. Enter your table header in the Google spreadsheet between            
-        //the gsx$ and .$t.
-        actual_html += [
-            '<tr><td>', 
-            '<img href="', 
-            json.feed.entry[i].gsx$Hero.$t, 
-            '">', 
-            '</td><td>',
-            json.feed.entry[i].gsx$PV.$t, 
-            '</td><td>',
-            json.feed.entry[i].gsx$Tritz.$t,
-            '</td><td>',
-            json.feed.entry[i].gsx$Thomas.$t,
-            '</td><td>',
-            json.feed.entry[i].gsx$Mark.$t,
-            '</td><td>',
-            json.feed.entry[i].gsx$Aaron.$t,
-            '</td></tr>'
-            ].join('');
-        }
-        //put all three of our HTML strings into our div we made at the top of the page
-        document.getElementById('standings').innerHTML = pre_html + actual_html + post_html
-    }   
-</script>
-
-<div id="standings"></div>
- 
-<!-- Grab the data from our google spreadsheet, using the callback to call the function we just created -->
-<script src="http://spreadsheets.google.com/feeds/list/0AlnL_8vlPlmWdENibmhlM3VoMmVHZzBTbDROU014RVE/od6/public/values?alt=json-in-script&amp;callback=displayContent" type="text/javascript"></script>
+<table>
+<tr>
+<td>Hero</td>
+<td>PV</td>
+<td>Tritz</td>
+<td>Thomas</td>
+<td>Mark</td>
+<td>Aaron</td>
+</tr>
+<tr>
+<td><img href="http://www.dota-two.com/img/heroes/rubick_lg.png"></td>
+<td>12</td>
+<td>0 wins</td>
+<td>0 wins</td>
+<td>0 wins</td>
+<td>0 wins</td>
+</tr>
+<tr>
+<td><img href="http://www.dota-two.com/img/heroes/chen_lg.png"></td>
+<td>12</td>
+<td>0 wins</td>
+<td>0 wins</td>
+<td>0 wins</td>
+<td>0 wins</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+<td>Text</td>
+</tr>
+</table>
 
 <!--<img class="centered" src="https://docs.google.com/drawings/pub?id=1lW8oCTI1oM9pz9tUTkJsNsY35rVAktIc1ab5wTWOYGg&amp;w=960&amp;h=720">-->
 <!--<img class="centered" src="https://docs.google.com/drawings/pub?id=1197cV547-nJlrBZsm2WA9OY1R1t4kj5Iv3pXloaIktc&amp;w=960&amp;h=720">-->
