@@ -16,6 +16,7 @@
 #standingstable td, th {
   vertical-align: middle;
   text-align: center;
+  padding: 0px;
 }
 
 #standingstable {
