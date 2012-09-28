@@ -11,6 +11,17 @@
   font-style: normal;
 }
 
+/* Internationoob standings table styles
+-------------------------------------------------- */
+#standingstable > td, th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#standingstable {
+  max-width: 726px;
+}
+
 /* Center things
 -------------------------------------------------- */
 .centered {
