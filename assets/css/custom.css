@@ -28,6 +28,10 @@
   width: 100%;
 }
 
+#standingstable > img {
+  padding-bottom: -5px;
+}
+
 /* Center things
 -------------------------------------------------- */
 .centered {
