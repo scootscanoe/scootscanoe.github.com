@@ -13,7 +13,7 @@ internationoob: active
   function makeTable(data) {
     var tableheader = '<table><thead><tr><th>Hero</th><th>PV</th><th>Tritz</th><th>Thomas</th><th>Mark</th><th>Aaron</th></tr><tbody>';
     var tablefooter = '</tbody></table>';
-    var tablebody;
+    var tablebody = '';
     for (i = 0; i < data.length; i++) {
       var currentrow = '<tr>';
       currentrow += '<td>' + data[i].hero + '</td>';
