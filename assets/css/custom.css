@@ -13,7 +13,7 @@
 
 /* Internationoob standings table styles
 -------------------------------------------------- */
-#standingstable td th {
+#standingstable td, #standingstable th {
   vertical-align: middle;
   text-align: center;
   padding: 0px;
