@@ -19,6 +19,10 @@
   padding: 0px;
 }
 
+#standingstable thead, #standingstable tr, #standingstable tbody {
+  width: 100%
+}
+
 #standingstable {
   max-width: 726px;
 }
