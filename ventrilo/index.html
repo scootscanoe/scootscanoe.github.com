@@ -1,0 +1,76 @@
+---
+layout: page
+title: Ventrilo
+subtitle: Vi sitter h&auml;r i Venten
+ventrilo: active
+---
+
+<div class="btn-group">
+  <a class="btn btn-primary btn-large" href="ventrilo://vent.gilgi.org:3784/servername=SC">Connect</a>
+</div>
+<div class="page-header">
+<h1>Technical Details <small>When pushing the button is just too easy</small></h1>
+</div>
+<table class="table table-bordered table-striped">
+  <tr>
+    <th>Server Name</th>
+    <td>Scoot's Canoe Ventrilo</td>
+  </tr>
+  <tr>
+    <th>Ventrilo Version</th>
+    <td>3.0.3</td>
+  </tr>
+  <tr>
+    <th>Platform</th>
+    <td>Windows</td>
+  </tr>
+  <tr>
+    <th>Address</th>
+    <td>vent.gilgi.org:3784</td>
+  </tr>
+  <tr>
+    <th>IP</th>
+    <td>140.180.130.72</td>
+  </tr>
+  <tr>
+    <th>Port</th>
+    <td>3784</td>
+  </tr>
+  <tr>
+    <th>Slots</th>
+    <td>8</td>
+  </tr>
+  <tr>
+    <th>Status</th>
+    <td id="ventstatus">
+      <p style="margin:0px" id="checkingstatus">Checking...</p>
+    </td>
+  </tr>
+  <tr>
+    <th>Users Online</th>
+    <td id="ventusers">
+      <p style="margin:0px" id="checkingusers">Checking...</p>
+    </td>
+  </tr>
+</table>
+
+<script>
+  function setStatus(data) {
+    document.getElementById('checkingstatus').style.display = 'none';
+    document.getElementById('checkingusers').style.display = 'none';
+    if (data.status == 'online') {
+      document.getElementById('ventstatus').innerHTML += 'Online';
+      document.getElementById('ventusers').innerHTML += data.usercount.toString();
+    }
+    else if (data.status == 'offline') {
+      document.getElementById('ventstatus').innerHTML += 'Offline';
+      document.getElementById('ventusers').innerHTML += '0';
+    }
+    else {
+      document.getElementById('ventstatus').innerHTML += 'Unknown';
+      document.getElementById('ventusers').innerHTML += 'Unknown';
+    }
+  }
+</script>
+
+<script src="http://flask.gilgi.org/ventstatus/json?callback=setStatus"></script>
