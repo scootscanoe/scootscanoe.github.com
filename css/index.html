@@ -41,4 +41,47 @@ css: active
     <th>SourceTV</th>
     <td>css.gilgi.org:27020</td>
   </tr>
+    <tr>
+    <th>Status</th>
+    <td id="cssstatus">
+      <p style="margin:0px" id="checkingstatus">Checking...</p>
+    </td>
+  </tr>
+  <tr>
+    <th>Users Online</th>
+    <td id="cssusers">
+      <p style="margin:0px" id="checkingusers">Checking...</p>
+    </td>
+  </tr>
+    <tr>
+    <th>Current Map</th>
+    <td id="cssmap">
+      <p style="margin:0px" id="checkingmap">Checking...</p>
+    </td>
+  </tr>
 </table>
+
+<script>
+  function setStatus(data) {
+    document.getElementById('checkingstatus').style.display = 'none';
+    document.getElementById('checkingusers').style.display = 'none';
+    document.getElementById('checkingmap').style.display = 'none';
+    if (data.status == 'online') {
+      document.getElementById('cssstatus').innerHTML += 'Online';
+      document.getElementById('cssusers').innerHTML += data.numplayers.toString();
+      document.getElementById('cssmap').innerHTML += data.map;
+    }
+    else if (data.status == 'offline') {
+      document.getElementById('cssstatus').innerHTML += 'Offline';
+      document.getElementById('cssusers').innerHTML += '0';
+      document.getElementById('cssmap').innerHTML += 'N/A';
+    }
+    else {
+      document.getElementById('cssstatus').innerHTML += 'Unknown';
+      document.getElementById('cssusers').innerHTML += 'Unknown';
+      document.getElementById('cssmap').innerHTML += 'Unknown';
+    }
+  }
+</script>
+
+<script src="http://flask.gilgi.org/cssstatus/json?callback=setStatus"></script>
