@@ -1,0 +1,10 @@
+---
+layout: post
+title: Minor Site Updates
+blog: active
+author: Thomas
+---
+
+The Scoot's Canoe Tech Committee continued to roll out minor improvements to the website through the last week of September. In addition to the Teamspeak status checking mentioned in "this blog post":/blog/2012/09/24/ts-mess-finally-resolved/, we have also introduced similar status checking (through some very slick JSONP APIs provided by "flask.gilgi.org":http://flask.gilgi.org) for the "CS:S server":/css and for the "Ventrilo sever":/ventrilo, which, although seldom used by Scoot's Canoe members, now has its own page under "Servers":/servers. Of course, the statuses for all these servers and everything else on the network can also be checked live at "status.gilgi.org":http://status.gilgi.org.
+
+In the near future, the Tech Committee plans to finally do something about the lack of a real "About":/about page. Stay tuned for more updates, and feel free to contact us with any suggestions, comments, complaints, or bug reports.
