@@ -27,7 +27,21 @@
 -------------------------------------------------- */
 .profiles .fadingdiv {
   background-color: white;
-  opacity: 0.5;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.profiles .fadingdiv:hover {
+  opacity: 0.8;
+}
+
+.profiles .backgrounddiv {
+  width: 184px;
+  height: 184px;
+  
 }
 
 /* Internationoob standings table styles
