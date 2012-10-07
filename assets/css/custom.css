@@ -31,6 +31,10 @@
   opacity: 0.8;
 }
 
+.profiles .fadingdiv:hover p, a {
+  opacity: 1.0;
+}
+
 .profiles .backgrounddiv {
   width: 184px;
   height: 184px;
