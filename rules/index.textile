@@ -14,7 +14,7 @@ This codification of the Rights, Rules, and Responsibilities of Scoot's Canoe Me
 
 h2. Historical Background
 
-Scoot's Canoe is a gaming organization that is the product of a merger between three groups of gamers that occurred sometime in late 2008 or early 2009. The first and most important group involved was that of Jake, Alex, and Brian, who had been lanning together for many years. The second group was Paul, who was drawn into the first group through strong friendship with Alex. The third group was Thomas, who left his own gaming group (made up of Sean, Tom, Matt, and Thomas) to join the new organization. The five original members christened their group Scoot's Canoe in reference to a subfront of TF2’s BLU.
+Scoot's Canoe is a gaming organization that is the product of a merger between three groups of gamers that occurred sometime in late 2008 or early 2009. The first and most important group involved was that of Jake, Alex, and Brian, who had been lanning together for many years. The second group was Paul, who was drawn into the first group through strong friendship with Alex. The third group was Thomas, who left his own gaming group (made up of Sean, Tom, Matt, and Thomas) to join the new organization. The five original members christened their group Scoot's Canoe in reference to a subfront of TF2's BLU.
 
 The first major lan held by Scoot's Canoe was the AD State LAN of 2009. This LAN was also attended by Scoot's Canoe's newest member, Martin. Sam joined the group soon afterwards, and Scoot's Canoe had many successful lans and participated in several NETWARs over the following years.
 
@@ -31,13 +31,9 @@ h3. Enumeration of Rights
 All Members of Scoot's Canoe have the following inherent rights as Scoot's Canoe Members:
 
 # The Non-Exclusive Right to access to all Scoot's Canoe services that have been designated for use by Members, as long as these services are online. These include the Scoot's Canoe Steam Group, the Scoot's Canoe Teamspeak Server, the Scoot's Canoe Ventrilo Server, and other services that Scoot's Canoe shall designate for use by its Members.
-
 # The Non-Exclusive Right to access to all Scoot's Canoe game servers, as long as these servers are online, and as long as these servers have not been claimed via cooperative scheduling for temporary exclusive use by a subset of Scoot's Canoe Members and their friends in good Standing that is scrimming or otherwise conducting a closed-format game, whether it be for practice or for competitive play.
-
 # The Exclusive Right to cooperatively schedule a block of time to reserve a certain Scoot's Canoe game server for exclusive use by a subset of Scoot's Canoe Members and their friends in good Standing for the purpose of scrimming or otherwise conducting a closed-format game, whether it be for practice or for competitive play.
-
 # The Exclusive Right to fully participate; whether it be through voting, discussion, or any other means defined by the process; in any political or pseudo-politcal activity that this document does not explicitly place under the exclusive jurisdiction of the Creators of Scoot's Canoe, as long as such participation does not infringe on any of the Rights of other Members.
-
 # The Exclusive Right to an informal trial in the event that Member is accused of breaking a Rule. This informal trial shall be made accessible to all Members of Scoot's Canoe in the form of live participation or any sort of record made available after the trial. The informal trial shall give the accused an opportunity to hear the accusations against him and to give testimony in his own defense.
 
 h3. Note on Officers
@@ -65,18 +61,14 @@ h2. Rules
 h3. Enumeration of Rules
 
 # All forms of disrespect for the group Scoot's Canoe, the name Scoot's Canoe, or the clan tag [SC] are prohibited.
-
 # The Explicit Rights of Scoot's Canoe Members enumerated above shall not be violated, removed, or restricted, except where expressly specified as a consequence of breaking a Rule.
-
 # The circumvention and attempted circumvention of the removal or restriction of Rights specified as a consequence of breaking a Rule are prohibited.
-
 # The abuse of any admin or officer privileges granted to any Scoot's Canoe Member is prohibited. Such abuse shall be defined as the use of these powers to violate, remove, or restrict the Explicit Rights of any Member except where expressly specified as a consequence of breaking a Rule.
-
 # The refusal of an Officer of Scoot's Canoe to execute the Power granted to him by the Creators of Scoot's Canoe in a manner consistent with any decree of the Creators of Scoot's Canoe made by majority vote is prohibited.
 
 h3. Consequences of Breaking Rules
 
-In the event that a Member is accused of breaking a Rule, an informal trial shall be held in accordance with the Rights enumerated above. After the trial, the Creators of Scoot's Canoe shall deliberate and determine, by majority vote, whether or not the accused is guilty of breaking the Rule. If the accused is determined to be guilty of breaking the Rule, the Creators of Scoot's Canoe shall again deliberate and determine, by majority vote, what punishment, if any, shall be imposed on the accused Member. If the Creators of Scoot's Canoe fail to make a majority vote for a particular punishment, then there shall be no punishment. Regardless of the outcome of the deliberation, the Creators of Scoot's Canoe shall announce their verdict to the Scoot’s Canoe Members as soon as the verdict is decided.
+In the event that a Member is accused of breaking a Rule, an informal trial shall be held in accordance with the Rights enumerated above. After the trial, the Creators of Scoot's Canoe shall deliberate and determine, by majority vote, whether or not the accused is guilty of breaking the Rule. If the accused is determined to be guilty of breaking the Rule, the Creators of Scoot's Canoe shall again deliberate and determine, by majority vote, what punishment, if any, shall be imposed on the accused Member. If the Creators of Scoot's Canoe fail to make a majority vote for a particular punishment, then there shall be no punishment. Regardless of the outcome of the deliberation, the Creators of Scoot's Canoe shall announce their verdict to the Scoot's Canoe Members as soon as the verdict is decided.
 
 When determining the appropriate punishment for a certain violation of a Rule, the Creators of Scoot's Canoe have full jurisdiction to choose any conceivable punishment, regardless of whether or not such punishment violates, removes, or restricts an existing Right of the accused Scoot's Canoe Member.
 
@@ -85,11 +77,8 @@ h2. Responsibilities
 h3. Responsibilities of All Members
 
 # All Scoot's Canoe Members have the Responsibility to respect the group Scoot's Canoe, the name Scoot's Canoe, and the clan tag [SC], and to represent the group Scoot's Canoe, the name Scoot's Canoe, or the clan tag [SC] well.
-
 # All Scoot's Canoe Members have the Responsibility to respect each other and to respect people who are not Scoot's Canoe Members.
-
 # All Scoot's Canoe Members have the Responsibility to have fun.
-
 # All Scoot's Canoe Members have the Responsibility to follow the Rules enumerated above.
 
 h3. Special Responsibility of Officers
@@ -99,7 +88,6 @@ Scoot's Canoe Officers have a special responsibility to carry out the will of th
 h3. Special Responsibilities of Creators
 
 # The Creators of Scoot's Canoe shall have the Responsibility and Power to decree and revise the Rights, Rules, and Responsibilities of Scoot's Canoe Members by majority vote.
-
 # The Creators of Scoot's Canoe shall have the Responsibility and Power to accept new Members into Scoot's Canoe by majority vote.
 
 # The Creators of Scoot's Canoe shall have the Responsibility and Power to determine the verdict of any accusation of Rule-breaking by a Scoot's Canoe Member as described in the Consequences of Breaking Rules above.
