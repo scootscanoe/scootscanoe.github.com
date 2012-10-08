@@ -43,6 +43,12 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .profiles .row {
+    padding-bottom: 86px;
+  }
+}
+
 /* Internationoob standings table styles
 -------------------------------------------------- */
 #standingstable td, #standingstable th {
