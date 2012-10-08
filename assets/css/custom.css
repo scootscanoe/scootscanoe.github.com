@@ -14,11 +14,6 @@
 /* Styles for profiles
 -------------------------------------------------- */
 .profiles .fadingdiv {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 184px;
-  height: 184px;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -32,30 +27,14 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.profiles .relative {
-  position: relative;
-}
-
 .profiles .fadingdiv:hover {
-  opacity: 1.0;
+  opacity: 0.8;
 }
 
 .profiles .backgrounddiv {
-  position: absolute;
-  top: 0px;
-  left: 0px;
   width: 184px;
   height: 184px;
   display: table;
-  opacity: 1.0;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.profiles .backgrounddiv:hover {
-  opacity: 0.2;
 }
 
 /* Internationoob standings table styles
