@@ -11,20 +11,6 @@ blog: active
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p>Posted by {{ post.author}} on {{ post.date | date_to_long_string }}</p>
 </div>
-{% capture length %}{{ post.content | number_of_words | plus:1 }}{% endcapture %}
-{{ length }}
-{{ length | plus:1 }}
-{% if length < 201 %}
-short post
-{% endif %}
-{% if length > 200 %}
-long post
-{% endif %}
-{% if length < 201 %}
 {{ post.content }}
-{% else %}
-{{ post.content | truncatewords:200 }}
-<p><a href="{{ post.url }}">Continue Reading...</a></p>
-{% endif %}
 </div>
 {% endfor %}
