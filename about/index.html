@@ -173,7 +173,7 @@ about: active
 
     var players = data.response.players;
     
-    for (int i = 0; i < data.players.length; i++) {
+    for (int i = 0; i < players.length; i++) {
       var statusElement = document.getElementById(players[i].steamid);
       if (statusElement != null) {
         var game = players[i].gameextrainfo;
