@@ -37,6 +37,12 @@
   display: table;
 }
 
+@media (max-width: 1200px) and (min-width: 979px) {
+  .profiles .row {
+    padding-bottom: 36px;
+  }
+}
+
 /* Internationoob standings table styles
 -------------------------------------------------- */
 #standingstable td, #standingstable th {
