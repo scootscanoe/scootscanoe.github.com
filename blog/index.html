@@ -12,10 +12,11 @@ blog: active
   <p>Posted by {{ post.author}} on {{ post.date | date_to_long_string }}</p>
 </div>
 {% if post.content | number_of_words < 201 %}
+{{ post.content | number_of_words }}
 {{ post.content }}
 {% else %}
 {{ post.content | truncatewords:200 }}
-<a href="{{ post.permalink }}">Continue Reading...</a>
+<p><a href="{{ post.permalink }}">Continue Reading...</a></p>
 {% endif %}
 </div>
 {% endfor %}
