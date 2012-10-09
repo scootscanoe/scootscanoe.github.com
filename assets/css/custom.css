@@ -39,13 +39,13 @@
 
 @media (max-width: 1200px) and (min-width: 979px) {
   .profiles .row {
-    padding-bottom: 36px;
+    padding-bottom: 56px;
   }
 }
 
 @media (min-width: 1200px) {
   .profiles .row {
-    padding-bottom: 86px;
+    padding-bottom: 116px;
   }
 }
 
