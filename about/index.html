@@ -169,17 +169,17 @@ about: active
                        "Looking to Trade",
                        "Looking to Play"];
 
-    /*if (data === null || data.response === null || data.response.players === null) {
+    if (data === null || data.response === null || data.response.players === null) {
       var statuses = document.getElementsByClassName('status');
       [].slice.call(statuses).forEach(function(status) {
         status.innerHTML = "Status Unknown";
       });
       return;
-    }*/
+    }
 
     var players = data.response.players;
     
-    for (i = 0; i < players.length; i++) {
+    /*for (i = 0; i < players.length; i++) {
       var statusElement = document.getElementById(players[i].steamid);
       if (statusElement !== null) {
         var game = players[i].gameextrainfo;
@@ -190,7 +190,7 @@ about: active
           statusElement.innerHTML = statusTable[players[i].personastate];
         }
       }
-    }
+    }*/
   }
 </script>
 
