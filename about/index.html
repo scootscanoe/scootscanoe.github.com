@@ -179,7 +179,7 @@ about: active
 
     var players = data.response.players;
     
-    /*for (i = 0; i < players.length; i++) {
+    for (i = 0; i < players.length; i++) {
       var statusElement = document.getElementById(players[i].steamid);
       if (statusElement !== null) {
         var game = players[i].gameextrainfo;
@@ -190,8 +190,8 @@ about: active
           statusElement.innerHTML = statusTable[players[i].personastate];
         }
       }
-    }*/
+    }
   }
 </script>
 
-<script async src="http://flask.gilgi.org/steam?callback=setStatus"></script>
+<!--<script async src="http://flask.gilgi.org/steam?callback=setStatus"></script>-->
