@@ -161,13 +161,13 @@ about: active
 
 <script>
   function setStatus(data) {
-    /*var statusTable = ["Offline",
+    var statusTable = ["Offline",
                        "Online",
                        "Busy",
                        "Away",
                        "Snooze",
                        "Looking to Trade",
-                       "Looking to Play"];*/
+                       "Looking to Play"];
 
     if (data === null || data.response === null || data.response.players === null) {
       var statuses = document.getElementsByClassName('status');
@@ -187,7 +187,7 @@ about: active
           statusElement.innerHTML = "In Game: " + game;
         }
         else {
-          //statusElement.innerHTML = statusTable[players[i].personastate];
+          statusElement.innerHTML = statusTable[players[i].personastate];
         }
       }
     }
