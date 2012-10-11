@@ -9,7 +9,7 @@ h3. Introduction
 
 Some people (most notably Nathan) have voiced concerns about the recent actions taken by Scoot's Canoe (most notably the kicking of Nathan from Scoot's Canoe). The purpose of this document is to clear up the confusion surrounding the events of the evening September 30th, 2012. Personally, I feel that I have spent enough time explaining the situation, so I have decided to mostly let the chatlogs speak for themselves (though I have added some additional comments to further clarify the situation). All timestamps are Eastern Daylight Time.
 
-<!--break-->
+<!-- more start -->
 
 h3. Disrespect to Scoot's Canoe
 
@@ -95,3 +95,5 @@ h3. Reacceptance into Scoot's Canoe
 With an attitude like that, it's not likely - but we never say never. People sometimes say or do things that they later regret. As stated in the verdict, Scoot's Canoe is open to listening to Nathan's comments and concerns.
 
 However, at the time of this writing, Nathan has only shown continued disrespect for Scoot's Canoe and its members. Furthermore, he has shown blatant disrespect for the verdict issued by Scoot's Canoe by circumventing his Teamspeak ban. Thus, at the current time, Scoot's Canoe is not prepared to readmit Nathan into the group.
+
+<!-- more end -->
