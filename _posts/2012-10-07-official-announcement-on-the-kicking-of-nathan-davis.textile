@@ -9,6 +9,8 @@ h3. Introduction
 
 Some people (most notably Nathan) have voiced concerns about the recent actions taken by Scoot's Canoe (most notably the kicking of Nathan from Scoot's Canoe). The purpose of this document is to clear up the confusion surrounding the events of the evening September 30th, 2012. Personally, I feel that I have spent enough time explaining the situation, so I have decided to mostly let the chatlogs speak for themselves (though I have added some additional comments to further clarify the situation). All timestamps are Eastern Daylight Time.
 
+<!--break-->
+
 h3. Disrespect to Scoot's Canoe
 
 <em>[9/30/2012 6:24:48 PM] Nathan Davis: Well I think it is funny to tell people in pubs we are the shitty cocks</em>
