@@ -11,8 +11,8 @@ blog: active
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p>Posted by {{ post.author}} on {{ post.date | date_to_long_string }}</p>
 </div>
-{{ post.content | split:"<!--break" | first }}
-{% if post.content contains "<!--break" %}
+{{ post.content | replace:"more start -->","" | replace:"<!-- more end","" }}
+{% if post.content contains "<!-- more start -->" %}
 <p><a href="{{ post.url }}">Read more...</a></p>
 {% endif %}
 </div>
