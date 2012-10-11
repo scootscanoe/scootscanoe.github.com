@@ -12,7 +12,7 @@ blog: active
   <p>Posted by {{ post.author}} on {{ post.date | date_to_long_string }}</p>
 </div>
 {{ post.content | split:"<!--break-->" | first }}
-{% if post.content contains "<!--break-->" %}
+{% if post.content contains "<!--break" %}
 <p><a href="{{ post.url }}">Read more...</a></p>
 {% endif %}
 </div>
