@@ -32,6 +32,15 @@
 
 .profiles .fadingdiv p, .profiles .fadingdiv h3 {
   color: white;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.profiles .fadingdiv:hover p, .profiles .fadingdiv:hover h3 {
+  opacity: 1;
 }
 
 .profiles .backgrounddiv {
