@@ -19,16 +19,15 @@
   text-align: center;
   height: 100%;
   width: 100%;
-  background-color: white;
-  opacity: 0;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(0,0,0,0);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .profiles .fadingdiv:hover {
-  opacity: 0.8;
+  background-color: rgba(0,0,0,0.8)
 }
 
 .profiles .backgrounddiv {
