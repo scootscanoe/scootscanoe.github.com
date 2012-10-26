@@ -30,6 +30,10 @@
   background-color: rgba(0,0,0,0.8)
 }
 
+.profiles .fadingdiv p, .profiles .fadingdiv h3 {
+  color: white;
+}
+
 .profiles .backgrounddiv {
   width: 184px;
   height: 184px;
