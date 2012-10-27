@@ -1,0 +1,34 @@
+---
+layout: page
+title: Starcraft 2
+subtitle: Because we all suck at Brood War
+allgames: active
+sc2: active
+---
+
+<p>The latest standings for The Internationoob 2012 are shown in the table below. For more details on the competition, please see <a href="/blog/2012/09/22/internationoob-2012-details-revealed/">this blog post</a>.</p>
+
+<div id="standings"></div>
+
+<script>
+  function makeTable(data) {
+    var tableheader = '<table id="standingstable" class="table table-bordered centered"><thead><tr><th style="width:15%">Hero</th><th style="width:5%">PV</th><th style="width:20%"><img src="http://media.steampowered.com/steamcommunity/public/images/avatars/26/26322f8e588336b09acaca30e57fb062922daec5_full.jpg" /></th><th style="width:20%"><img src="http://media.steampowered.com/steamcommunity/public/images/avatars/91/91296a13cfa5a49c0c417a294a9bdc56703c8c04_full.jpg" /></th><th style="width:20%"><img src="http://media.steampowered.com/steamcommunity/public/images/avatars/83/83842776d2383ee3daf6b74922fe854aaee03c1c_full.jpg" /></th><th style="width:20%"><img src="http://media.steampowered.com/steamcommunity/public/images/avatars/d9/d97efec858217240fa3f46527fb7db53099fe21b_full.jpg" /></th></tr><tbody>';
+    var tablefooter = '</tbody></table>';
+    var tablebody = '';
+    for (i = 0; i < data.length; i++) {
+      var currentrow = '<tr>';
+      currentrow += '<td>' + data[i].hero + '</td>';
+      currentrow += '<td>' + data[i].pv + '</td>';
+      currentrow += '<td>' + data[i].tritz + '</td>';
+      currentrow += '<td>' + data[i].thomas + '</td>';
+      currentrow += '<td>' + data[i].mark + '</td>';
+      currentrow += '<td>' + data[i].aaron + '</td>';
+      currentrow += '</tr>';
+      tablebody += currentrow;
+    }
+    var table = tableheader + tablebody + tablefooter;
+    document.getElementById('standings').innerHTML = table;
+  }
+</script>
+
+<script async src="https://script.google.com/macros/s/AKfycbwb-COcGFXNLQUYs3DSCvHIbrMQElBdzzoQ1PbbBYZpLr7iis8/exec?prefix=makeTable"></script>
