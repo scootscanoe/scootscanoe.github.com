@@ -102,7 +102,8 @@
 }
 
 #sctable .badge {
-  opacity: 1.0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .badge.badge-bronze { background: url("/assets/img/leagues/bronze.png") 0 0 no-repeat; }
