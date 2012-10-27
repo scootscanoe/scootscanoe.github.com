@@ -101,6 +101,44 @@
   width: 20%;
 }
 
+#sctable .badge {
+  opacity: 1.0;
+}
+
+.badge.badge-bronze { background: url("/assets/img/leagues/bronze.png") 0 0 no-repeat; }
+.badge.badge-silver { background: url("/assets/img/leagues/silver.png") 0 0 no-repeat; }
+.badge.badge-gold { background: url("/assets/img/leagues/gold.png") 0 0 no-repeat; }
+.badge.badge-platinum { background: url("/assets/img/leagues/platinum.png") 0 0 no-repeat; }
+.badge.badge-diamond { background: url("/assets/img/leagues/diamond.png") 0 0 no-repeat; }
+.badge.badge-master { background: url("/assets/img/leagues/master.png") 0 0 no-repeat; }
+.badge.badge-grandmaster { background: url("/assets/img/leagues/grandmaster.png") 0 0 no-repeat; }
+.badge.badge-none { background: url("/assets/img/leagues/none.png") 0 0 no-repeat; }
+.badge.badge-large-1,
+.badge.badge-large-2,
+.badge.badge-large-3,
+.badge.badge-large-4 { width: 100px; height: 100px; }
+.badge.badge-large-1 { background-position: 0 0; }
+.badge.badge-large-2 { background-position: 0 -105px; }
+.badge.badge-large-3 { background-position: 0 -210px; }
+.badge.badge-large-4 { background-position: 0 -315px; height: 105px; }
+.badge.badge-medium-1,
+.badge.badge-medium-2,
+.badge.badge-medium-3,
+.badge.badge-medium-4 { width: 45px; height: 45px; }
+.badge.badge-medium-1 { background-position: -100px 0; }
+.badge.badge-medium-2 { background-position: -100px -50px; }
+.badge.badge-medium-3 { background-position: -100px -100px; }
+.badge.badge-medium-4 { background-position: -100px -150px; height: 50px; }
+.badge.badge-small-1,
+.badge.badge-small-2,
+.badge.badge-small-3,
+.badge.badge-small-4 { width: 25px; height: 25px; }
+.badge.badge-small-1 { background-position: -145px 0; }
+.badge.badge-small-2 { background-position: -145px -30px; }
+.badge.badge-small-3 { background-position: -145px -60px; }
+.badge.badge-small-4 { background-position: -145px -90px; height: 30px; }
+
+
 /* Internationoob standings table styles
 -------------------------------------------------- */
 #standingstable td, #standingstable th {
