@@ -88,6 +88,11 @@
   min-height: 75px;
 }
 
+#sctable .league {
+  max-width: 75px;
+  min-width: 75px;
+}
+
 /* Internationoob standings table styles
 -------------------------------------------------- */
 #standingstable td, #standingstable th {

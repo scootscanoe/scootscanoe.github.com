@@ -7,7 +7,7 @@ sc2: active
 ---
 
 <div class="page-header">
-<h1>Individual League Ranks <small>Because random teams are easy mode</small></h1>
+<h1>Individual League Ranks <small>AKA random teams are easy mode</small></h1>
 </div>
 
 <div id="individual"></div>
@@ -22,13 +22,13 @@ sc2: active
       var currentrow = '<tr class="playerrow">';
       currentrow += '<td style="' + players[i].portrait + '"></td>';
       currentrow += '<td>' + players[i].name + '</td>';
-      currentrow += '<td>' + players[i].leagues[0] + '</td>';
+      currentrow += '<td class="league">' + players[i].leagues[0] + '</td>';
       currentrow += '<td>' + players[i].ranks[0] + '</td>';
-      currentrow += '<td>' + players[i].leagues[1] + '</td>';
+      currentrow += '<td class="league">' + players[i].leagues[1] + '</td>';
       currentrow += '<td>' + players[i].ranks[1] + '</td>';
-      currentrow += '<td>' + players[i].leagues[2] + '</td>';
+      currentrow += '<td class="league">' + players[i].leagues[2] + '</td>';
       currentrow += '<td>' + players[i].ranks[2] + '</td>';
-      currentrow += '<td>' + players[i].leagues[3] + '</td>';
+      currentrow += '<td class="league">' + players[i].leagues[3] + '</td>';
       currentrow += '<td>' + players[i].ranks[3] + '</td>';
       currentrow += '</tr>';
       tablebody += currentrow;
