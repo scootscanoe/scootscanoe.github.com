@@ -14,7 +14,7 @@ sc2: active
 
 <script>
   function makeTable(data) {
-    var tableheader = '<table id="sctable" class="table table-bordered centered"><thead><tr><th id="portraitcol"></th><th>Name</th><th colspan="2">1v1</th><th colspan="2">2v2</th><th colspan="2">3v3</th><th colspan="2">4v4</th></tr><tbody>';
+    var tableheader = '<table id="sctable" class="table table-bordered centered"><thead><tr><th id="portraitcol"></th><th class="name">Name</th><th colspan="2">1v1</th><th colspan="2">2v2</th><th colspan="2">3v3</th><th colspan="2">4v4</th></tr><tbody>';
     var tablefooter = '</tbody></table>';
     var tablebody = '';
     players = data.players;
@@ -22,14 +22,14 @@ sc2: active
       var currentrow = '<tr class="playerrow">';
       currentrow += '<td style="' + players[i].portrait + '"></td>';
       currentrow += '<td>' + players[i].name + '</td>';
-      currentrow += '<td class="league">' + players[i].leagues[0] + '</td>';
-      currentrow += '<td>' + players[i].ranks[0] + '</td>';
-      currentrow += '<td class="league">' + players[i].leagues[1] + '</td>';
-      currentrow += '<td>' + players[i].ranks[1] + '</td>';
-      currentrow += '<td class="league">' + players[i].leagues[2] + '</td>';
-      currentrow += '<td>' + players[i].ranks[2] + '</td>';
-      currentrow += '<td class="league">' + players[i].leagues[3] + '</td>';
-      currentrow += '<td>' + players[i].ranks[3] + '</td>';
+      currentrow += '<td class="leaguecell">' + players[i].leagues[0] + '</td>';
+      currentrow += '<td class="rank">' + players[i].ranks[0] + '</td>';
+      currentrow += '<td class="leaguecell">' + players[i].leagues[1] + '</td>';
+      currentrow += '<td class="rank">' + players[i].ranks[1] + '</td>';
+      currentrow += '<td class="leaguecell">' + players[i].leagues[2] + '</td>';
+      currentrow += '<td class="rank">' + players[i].ranks[2] + '</td>';
+      currentrow += '<td class="leaguecell">' + players[i].leagues[3] + '</td>';
+      currentrow += '<td class="rank">' + players[i].ranks[3] + '</td>';
       currentrow += '</tr>';
       tablebody += currentrow;
     }

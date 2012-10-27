@@ -74,7 +74,7 @@
 }
 
 #sctable {
-  max-width: 433px;
+  max-width: 525px;
   width: 100%;
 }
 
@@ -88,9 +88,17 @@
   min-height: 75px;
 }
 
-#sctable .league {
+#sctable .leaguecell {
   max-width: 75px;
   min-width: 75px;
+}
+
+#sctable .rank {
+  width: 5%;
+}
+
+#sctable .name {
+  width: 25%;
 }
 
 /* Internationoob standings table styles
