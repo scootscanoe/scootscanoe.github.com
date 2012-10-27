@@ -21,7 +21,7 @@ sc2: active
     for (i = 0; i < players.length; i++) {
       var currentrow = '<tr class="playerrow">';
       currentrow += '<td style="' + players[i].portrait + '"></td>';
-      currentrow += '<td>' + players[i].name + '</td>';
+      currentrow += '<td><a href="' + players[i].url + '">' + players[i].name + '<a></td>';
       currentrow += '<td class="leaguecell"><div class="badge badge-' + players[i].leagues[0] + ' badge-medium-' + players[i].levels[0] + '"></div></td>';
       currentrow += '<td class="rank">' + players[i].ranks[0] + '</td>';
       currentrow += '<td class="leaguecell"><div class="badge badge-' + players[i].leagues[1] + ' badge-medium-' + players[i].levels[1] + '"></div></td>';
