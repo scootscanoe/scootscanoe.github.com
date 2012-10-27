@@ -61,6 +61,33 @@
   }
 }
 
+/* sc2 table styles
+-------------------------------------------------- */
+#sctable td, #sctable th {
+  vertical-align: middle;
+  text-align: center;
+  padding: 0px;
+}
+
+#sctable thead, #sctable tr, #sctable tbody {
+  width: 100%
+}
+
+#sctable {
+  max-width: 433px;
+  width: 100%;
+}
+
+#portraitcol {
+  max-width: 75px;
+  min-width: 75px;
+}
+
+#sctable playerrow {
+  max-height: 75px;
+  min-height: 75px;
+}
+
 /* Internationoob standings table styles
 -------------------------------------------------- */
 #standingstable td, #standingstable th {
