@@ -17,6 +17,61 @@ more important things like getting mad about HoN.</p>
 joined another Minecraft server and played on the world that is now immortalized in 
 <a href="http://map.gilgi.org" target="_blank">this map</a>. That server was reset on March 3rd, 2012, 
 but Scoot's Canoe involvement on the world is steadily dying out.</p>
+<p>On October 28th, 2012, at the behest of Alex, a new incarnation of the Scoot's Canoe Minecraft Server was spun up.</p>
+
+<div class="page-header">
+<h1>Technical Details <small>What do you mean there's not just a button?</small></h1>
+</div>
+<table class="table table-bordered table-striped">
+  <tr>
+    <th>Name</th>
+    <td>Scoot's Canoe Minecraft Server</td>
+  </tr>
+  <tr>
+    <th>Platform</th>
+    <td>Linux</td>
+  </tr>
+  <tr>
+    <th>Address</th>
+    <td>minecraft.gilgi.org</td>
+  </tr>
+  <tr>
+    <th>IP</th>
+    <td>107.21.94.144</td>
+  </tr>
+  <tr>
+    <th>Port</th>
+    <td>25565</td>
+  </tr>
+  <tr>
+    <th>Version</th>
+    <td>1.4.2</td>
+  </tr>
+  <tr>
+    <th>Mods</th>
+    <td>None</td>
+  </tr>
+  <tr>
+    <th>Game Type</th>
+    <td>SMP</td>
+  </tr>
+  <tr>
+    <th>Slots</th>
+    <td>20</td>
+  </tr>
+  <tr>
+    <th>Status</th>
+    <td id="minecraftstatus">
+      <p style="margin:0px" id="checkingstatus">Checking...</p>
+    </td>
+  </tr>
+  <tr>
+    <th>Users Online</th>
+    <td id="minecraftusers">
+      <p style="margin:0px" id="checkingusers">Checking...</p>
+    </td>
+  </tr>
+</table>
 
 <div class="page-header">
 <h1>Gallery <small>Click thumbnail to go to map</small></h1>
@@ -51,3 +106,24 @@ but Scoot's Canoe involvement on the world is steadily dying out.</p>
     </ul>
   </div>
 </div>
+
+<script>
+  function setStatus(data) {
+    document.getElementById('checkingstatus').style.display = 'none';
+    document.getElementById('checkingusers').style.display = 'none';
+    if (data.status == 'online') {
+      document.getElementById('minecraftstatus').innerHTML += 'Online';
+      document.getElementById('minecraftusers').innerHTML += data.numplayers.toString();
+    }
+    else if (data.status == 'offline') {
+      document.getElementById('minecraftstatus').innerHTML += 'Offline';
+      document.getElementById('minecraftusers').innerHTML += '0';
+    }
+    else {
+      document.getElementById('minecraftstatus').innerHTML += 'Unknown';
+      document.getElementById('minecraftusers').innerHTML += 'Unknown';
+    }
+  }
+</script>
+
+<script async src="http://flask.gilgi.org/minecraftstatus/json?callback=setStatus"></script>
