@@ -1,0 +1,10 @@
+---
+layout: post
+title: More Site Updates
+blog: active
+author: Thomas
+---
+
+The Scoot's Canoe Tech Committee has completed more improvements to the website over the past few weeks. The "About page":/about now features a grid of Scoot's Canoe member Steam avatars and a recently-cleaned-up status display on mouseover. We have also added a "Skype page":/skype with a link to our Skype group chat. Finally, there is now a "Starcraft 2 page":/sc2 that showcases the league standings of the Scoot's Canoe Starcraft 2 Team.
+
+As always, please feel free to make comments and suggestions. To get access to the blog, contact Thomas or just email posts to "scootscanoe@gilgi.org"mailto:scootscanoe@gilgi.org.
