@@ -1,0 +1,8 @@
+---
+layout: post
+title: Scoot's Canoe Minecraft Server Launched
+blog: active
+author: Thomas
+---
+
+Scoot's Canoe is proud to announce that a new incarnation of the Scoot's Canoe Minecraft Server has been spun up at the behest of Alex. The server is currently running vanilla Minecraft 1.4.2 and can be found at minecraft.gilgi.org. Additional technical details on the server have been added to the "Minecraft server page":/minecraft. The status of the Scoot's Canoe Minecraft Server can be checked live on that page as well as at "status.gilgi.org":http://status.gilgi.org. If the server is down or if there are any other problems please contact Thomas. Have fun and happy building!
