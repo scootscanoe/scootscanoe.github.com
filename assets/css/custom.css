@@ -63,32 +63,32 @@
 
 /* sc2 table styles
 -------------------------------------------------- */
-#sctable td, #sctable th {
+.sctable td, .sctable th {
   vertical-align: middle;
   text-align: center;
   padding: 0px;
 }
 
-#sctable thead, #sctable tr, #sctable tbody {
+.sctable thead, .sctable tr, .sctable tbody {
   width: 100%
 }
 
-#sctable {
+.sctable {
   max-width: 593px;
   width: 100%;
 }
 
-#portraitcol {
+.portraitcol {
   max-width: 75px;
   min-width: 75px;
 }
 
-#sctable playerrow {
+.sctable playerrow {
   max-height: 75px;
   min-height: 75px;
 }
 
-#sctable .leaguecell {
+.sctable .leaguecell {
   max-width: 75px;
   min-width: 75px;
 }
@@ -101,7 +101,7 @@
   width: 20%;
 }
 
-#sctable .badge {
+.sctable .badge {
   margin-right: auto;
   margin-left: auto;
 }

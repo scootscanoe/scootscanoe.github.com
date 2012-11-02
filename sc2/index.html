@@ -21,7 +21,7 @@ sc2: active
 <script>
   function makeTables(data) {
     // individual table
-    var tableheader = '<table id="sctable" class="table table-bordered centered"><thead><tr><th id="portraitcol"></th><th class="name">Name</th><th colspan="2">1v1</th><th colspan="2">2v2</th><th colspan="2">3v3</th><th colspan="2">4v4</th></tr><tbody>';
+    var tableheader = '<table id="sctable" class="sctable table table-bordered centered"><thead><tr><th class="portraitcol"></th><th class="name">Name</th><th colspan="2">1v1</th><th colspan="2">2v2</th><th colspan="2">3v3</th><th colspan="2">4v4</th></tr><tbody>';
     var tablefooter = '</tbody></table>';
     var tablebody = '';
     players = data.players;
@@ -44,7 +44,7 @@ sc2: active
     document.getElementById('individual').innerHTML = table;
 
     // twos table
-    var twosheader = '<table id="sctable" class="table table-bordered centered"><thead><tr><th id="portraitcol"></th><th class="name">Name</th><th id="portraitcol"></th><th class="name">Name</th><th>League</th><th>Rank</th></tr><tbody>';
+    var twosheader = '<table id="twostable" class="sctable table table-bordered centered"><thead><tr><th id="portraitcol"></th><th class="name">Name</th><th id="portraitcol"></th><th class="name">Name</th><th>League</th><th>Rank</th></tr><tbody>';
     var twosfooter = '</tbody></table>';
     var twosbody = '';
     twos = data.twos;
