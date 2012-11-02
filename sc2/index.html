@@ -12,8 +12,15 @@ sc2: active
 
 <div id="individual"></div>
 
+<div class="page-header">
+<h1>2v2 Team League Ranks <small>Anything bigger is a joke</small></h1>
+</div>
+
+<div id="twos"></div>
+
 <script>
-  function makeTable(data) {
+  function makeTables(data) {
+    // individual table
     var tableheader = '<table id="sctable" class="table table-bordered centered"><thead><tr><th id="portraitcol"></th><th class="name">Name</th><th colspan="2">1v1</th><th colspan="2">2v2</th><th colspan="2">3v3</th><th colspan="2">4v4</th></tr><tbody>';
     var tablefooter = '</tbody></table>';
     var tablebody = '';
@@ -35,7 +42,26 @@ sc2: active
     }
     var table = tableheader + tablebody + tablefooter;
     document.getElementById('individual').innerHTML = table;
+
+    // twos table
+    var twosheader = '<table id="sctable" class="table table-bordered centered"><thead><tr><th id="portraitcol"></th><th class="name">Name</th><th id="portraitcol"></th><th class="name">Name</th><th>League</th><th>Rank</th></tr><tbody>';
+    var twosfooter = '</tbody></table>';
+    var twosbody = '';
+    twos = data.twos;
+    for (i = 0; i < twos.length; i++) {
+      var currentrow = '<tr class="playerrow">';
+      currentrow += '<td style="' + twos[i].members[0].portrait + '"></td>';
+      currentrow += '<td><a href="' + twos[i].members[0].url + '">' + twos[i].members[0].name + '<a></td>';
+      currentrow += '<td style="' + twos[i].members[1].portrait + '"></td>';
+      currentrow += '<td><a href="' + twos[i].members[1].url + '">' + twos[i].members[1].name + '<a></td>';
+      currentrow += '<td class="leaguecell"><div class="badge badge-' + twos[i].league + ' badge-medium-' + twos[i].level + '"></div></td>';
+      currentrow += '<td class="rank">' + twos[i].rank + '</td>';
+      currentrow += '</tr>';
+      twosbody += currentrow;
+    }
+    var twostable = twosheader + twosbody + twosfooter;
+    document.getElementById('twos').innerHTML = twostable;
   }
 </script>
 
-<script async src="http://flask.gilgi.org/sc2?callback=makeTable"></script>
+<script async src="http://flask.gilgi.org/sc2?callback=makeTables"></script>
