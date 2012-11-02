@@ -73,8 +73,13 @@
   width: 100%
 }
 
-.sctable {
+#sctable {
   max-width: 593px;
+  width: 100%;
+}
+
+#twostable {
+  max-width: 450px;
   width: 100%;
 }
 
@@ -97,7 +102,11 @@
   width: 25px;
 }
 
-#sctable .name {
+#twostable .rank {
+  width: 10%
+}
+
+.sctable .name {
   width: 20%;
 }
 
