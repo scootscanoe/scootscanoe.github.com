@@ -1,0 +1,8 @@
+---
+layout: post
+title: NETWAR 24.0 Announced
+blog: active
+author: Thomas
+---
+
+This week, "NETWAR":http://www.netwar.org/, the esteemed organizers behind the biggest and hypest recurring LAN in Omaha "announced":https://lanfest.intel.com/events/netwar24/main their latest event, NETWAR 24.0! This announcement has been long awaited, as "the last NETWAR":http://www.netwar.org/?page=event&id=18 was back in April of 2011, and NETWARs are supposed to happen "at least 2 to 3 times a year." At any rate, we're very excited and are already planning seating and tournament squads for CS:GO and TF2. The inclusion of LoL on the official tournament list was met with dismay, especially since it comes at the expense of the exclusion of Dota 2, which is clearly the superior MOBA. We hope that participant voting will clear up this issue and put Dota 2 on the official tournament list where it belongs. As Informal NETWAR Team Captain Martin put it, "I will never play LoL."
