@@ -11,6 +11,13 @@
   font-style: normal;
 }
 
+/* Disabled links in pagination
+-------------------------------------------------- */
+.pagination .disabled a, .pagination .active a {
+  pointer-events: none;
+  cursor: default;
+}
+
 /* Styles for profiles
 -------------------------------------------------- */
 .profiles .fadingdiv {
