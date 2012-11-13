@@ -7,6 +7,7 @@ posts_per_page: 5
 ---
 
 {% capture offset %}{{ page.page | minus:1 | times:page.posts_per_page }}{% endcapture %}
+{% capture total_pages %}{{ site.posts | divided_by:posts_per_page | plus:1 }}{% capture %}
 
 {% for post in site.posts limit:page.posts_per_page offset:offset %}
 <div class="well">
@@ -20,3 +21,31 @@ posts_per_page: 5
 {% endif %}
 </div>
 {% endfor %}
+
+<div class="pagination">
+  <ul>
+    {% if page.page == 1 %}
+    <li class="disabled"><a href="#">&laquo;</a></li>
+    {% elsif page.page == 2 %}
+    <li><a href="/blog">&laquo;</a></li>
+    {% else %}
+    <li><a href="/blog/{{ page.page - 1 }}">&laquo;</a></li>
+    {% endif %}
+    {% if page.page == 1 %}
+    <li class="active"><a href="/blog">1</a></li>
+    {% else %}
+    <li><a href="/blog">1</a></li>
+    {% endif %}
+    {% for count in (2..total_pages) %}
+    {% if count == page.page %}
+    <li class="active"><a href="/blog/{{count}}">{{count}}</a></li>
+    {% else %}
+    <li><a href="/blog/{{count}}">{{count}}</a></li>
+    {% endif %}
+    {% endfor %}
+    {% if page.page == total_pages %}
+    <li class="disabled"><a href="#">&raquo;</a></li>
+    {% else %}
+    <li><a href="/blog/{{ page.page | plus:1 }}">&raquo;</a></li>
+    {% endif %}
+</div>
