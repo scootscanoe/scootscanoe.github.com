@@ -2,4 +2,3 @@ safe: true
 pygments: true
 permalink: /blog/:year/:month/:day/:title
 paginate: 5
-baseurl: /blog
