@@ -26,7 +26,7 @@ posts_per_page: 5
 <div class="pagination">
   <ul>
     {% if page.page == 1 %}
-    <li class="disabled"><p>&laquo;</p></li>
+    <li class="disabled"><a href="#">&laquo;</a></li>
     {% elsif page.page == 2 %}
     <li><a href="/blog">&laquo;</a></li>
     {% else %}
@@ -45,7 +45,7 @@ posts_per_page: 5
     {% endif %}
     {% endfor %}
     {% if total_pages == page_number_string %}
-    <li class="disabled"><p>&raquo;</p></li>
+    <li class="disabled"><a href="#">&raquo;</a></li>
     {% else %}
     <li><a href="/blog/{{ page.page | plus:1 }}">&raquo;</a></li>
     {% endif %}
