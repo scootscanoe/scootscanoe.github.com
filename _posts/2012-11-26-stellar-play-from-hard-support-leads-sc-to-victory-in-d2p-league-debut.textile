@@ -19,8 +19,8 @@ While Clan Dream struggled to contain Scoot's Canoe's impressive lineup, they we
   <div class="span12" style="width:100%">
     <ul class="thumbnails" style="width:100%">
       <li class="span6" style="width:47%">
-        <a href="/assets/img/dota/67723815.jpg" class="thumbnail">
-          <img src="/assets/img/dota/67723815.jpg" alt="">
+        <a href="/assets/img/dota/67708720.jpg" class="thumbnail">
+          <img src="/assets/img/dota/67708720.jpg" alt="">
         </a>
       </li>
       <li class="span6" style="width:47%">
