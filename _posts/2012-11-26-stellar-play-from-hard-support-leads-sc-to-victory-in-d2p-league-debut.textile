@@ -3,6 +3,7 @@ layout: post
 title: Stellar Play from Hard Support Leads SC to Victory in D2P League Debut
 blog: active
 author: Michael
+date: 2012-11-26T01:00:00.00
 ---
 
 The hotly anticipated Scoot's Canoe debut in Dota 2 Portal League play on Saturday night resulted in overwhelming success for the pride of Omaha, Nebraska, as Martin captained a ragtag team, hastily assembled in the moments before the match, to a two-to-naught victory over the likes of Clan Dream.
