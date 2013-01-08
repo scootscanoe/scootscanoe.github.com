@@ -6,19 +6,30 @@ servers: active
 minecraft: active
 ---
 <p><a class="btn btn-primary btn-large" href="http://map.gilgi.org" target="_blank">View Map of Old Server</a>
-<div class="page-header">
-<h1>Some History <small>Because some things need explaining</small></h1>
-</div>
-<p>The members of Scoot's Canoe have dabbled in Minecraft on and off for years. 
+
+<ul id="myTab" class="nav nav-tabs">
+  <li class="active"><a href="#history" data-toggle="tab"></a>History</li>
+  <li><a href="#technical-details" data-toggle="tab"></a>Technical Details</li>
+  <li><a href="#rules" data-toggle="tab"></a>Rules</li>
+  <li><a href="#mod-help" data-toggle="tab"></a>Mod Help</li>
+  <li><a href="#gallery" data-toggle="tab"></a>Gallery</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+  <div class="tab-pane fade in active" id="history">
+    <div class="page-header">
+      <h1>Some History <small>Because some things need explaining</small></h1>
+    </div>
+    <p>The members of Scoot's Canoe have dabbled in Minecraft on and off for years. 
 Alex ran several reincarnations of a server for us over Hamachi (definitely not Hamacho) 
 and we'd pour hundreds of man-hours into a world before getting bored and moving on to other, 
 more important things like getting mad about HoN.</p>
-<p>After Alex's last server was brought down sometime in 2011, the members of Scoot's Canoe 
+    <p>After Alex's last server was brought down sometime in 2011, the members of Scoot's Canoe 
 joined another Minecraft server and played on the world that is now immortalized in 
-<a href="http://map.gilgi.org" target="_blank">this map</a>. That server was reset on March 3rd, 2012, 
+    <a href="http://map.gilgi.org" target="_blank">this map</a>. That server was reset on March 3rd, 2012, 
 but Scoot's Canoe involvement on the world is steadily dying out.</p>
-<p>On October 28th, 2012, at the behest of Alex, a new incarnation of the Scoot's Canoe Minecraft Server was spun up.</p>
-
+    <p>On October 28th, 2012, at the behest of Alex, a new incarnation of the Scoot's Canoe Minecraft Server was spun up.</p>
+  </div>
+  <div class="tab-pane fade" id="technical-details">
 <div class="page-header">
 <h1>Technical Details <small>What do you mean there's not just a button?</small></h1>
 </div>
@@ -60,6 +71,10 @@ but Scoot's Canoe involvement on the world is steadily dying out.</p>
     <td>20</td>
   </tr>
   <tr>
+    <th>Admins</th>
+    <td>TheVindicator, Housman101</td>
+  </tr>
+  <tr>
     <th>Status</th>
     <td id="minecraftstatus">
       <p style="margin:0px" id="checkingstatus">Checking...</p>
@@ -72,7 +87,32 @@ but Scoot's Canoe involvement on the world is steadily dying out.</p>
     </td>
   </tr>
 </table>
-
+  </div>
+  <div class="tab-pane fade" id="rules">
+    <ol>
+      <li>No attacking other players unless dueling.</li>
+      <li>Any traps on public land must be clearly marked by warning signs.</li>
+      <li>Repair all damage made by creeper explosions.</li>
+      <li>Do not build on land clearly used by others. Try to mark land with fences/signs to avoid confusion.</li>
+      <li>Do not harvest crops, trees, or animals grown by others without their permission. Do not take items from chests without permission.</li>
+      <li>When mining, use right-hand rule. Place torches on the right as you go deeper, so anyone can walk with the torches on their left to get out.</li>
+      <li>Completely cut down trees (don't leave bits at the top) and leave waterways open for boat travel.</li>
+    </ol>
+  </div>
+  <div class="tab-pane fade" id="mod-help">
+    <div class="page-header">
+      <h1>Mod Help <small>It's not that easy, eh?</small></h1>
+    </div>
+    <h3>Lock Chests</h3>
+    <p>Place a sign on the side of a chest and only you will be able to access it</p>
+    <h3>Currency</h3>
+    <p>To create a vault, place a chest and sign above it that says “vault”. You can place Iron Ingots in this chest to give your account currency.</p>
+    <p>Note: Vaults need to be locked if you want them protected.</p>
+    <p>“/money” will show you your current balance, this includes Iron in your vaults and in your inventory.</p>
+    <h3>Trading</h3>
+    </p>A shop is a sign with the 1st sign as “[Buy]” or “[Sell]”, 2nd and 3rd lines are Descriptions, and 4th line is the Once the sign is placed, create a chest to store what you are selling and place 1 unit of what you are selling in it.</p>
+  </div>
+  <div class="tab-pane fade" id="gallery">
 <div class="page-header">
 <h1>Gallery <small>Click thumbnail to go to map</small></h1>
 </div>
@@ -104,6 +144,8 @@ but Scoot's Canoe involvement on the world is steadily dying out.</p>
         </a>
       </li>
     </ul>
+  </div>
+</div>
   </div>
 </div>
 
