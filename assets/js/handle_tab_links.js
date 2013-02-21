@@ -7,4 +7,5 @@ if (url.match('#')) {
 // Change hash for page-reload
 $('.nav-tabs a').on('shown', function (e) {
     window.location.hash = e.target.hash;
+    window.scrollTo(0, 0);
 })
