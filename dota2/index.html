@@ -21,10 +21,10 @@ dota2: active
     teams = data.teams;
     for (i = 0; i < teams.length; i++) {
       var currentrow = '<tr class="teamrow">';
-      currentrow += '<td>teams[i].tag</td>';
+      currentrow += '<td>' + teams[i].tag + '</td>';
       currentrow += '<td><a href="' + teams[i].url + '">' + teams[i].name + '<a></td>';
-      currentrow += '<td>teams[i].games_played</td>';
-      currentrow += '<td>teams[i].rating</td>';
+      currentrow += '<td>' + teams[i].games_played + '</td>';
+      currentrow += '<td>' + teams[i].rating + '</td>';
       currentrow += '</tr>';
       tablebody += currentrow;
     }
