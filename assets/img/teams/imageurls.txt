@@ -1,0 +1,4 @@
+http://flask.gilgi.org/dota2 --> team_id
+https://api.steampowered.com/IDOTA2Match_570/GetTeamInfoByTeamID/v001/?key=0538B63D120712F02F48101C51733DA0&start_at_team_id=419468&teams_requested=1 --> logo
+http://api.steampowered.com/ISteamRemoteStorage/GetUGCFileDetails/v1/?key=0538B63D120712F02F48101C51733DA0&appid=570&ugcid=576730802373104514 --> url
+request url with browser --> downloaded image

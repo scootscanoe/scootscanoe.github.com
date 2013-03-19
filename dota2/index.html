@@ -15,12 +15,13 @@ dota2: active
 <script>
   function makeTables(data) {
     // individual table
-    var tableheader = '<table id="dotatable" class="dotatable table table-bordered"><thead><tr><th class="tagcol">Tag</th><th class="namecol">Name</th><th class="gpcol">Games Played</th><th class="ratingcol">Rating</th></tr><tbody>';
+    var tableheader = '<table id="dotatable" class="dotatable table table-bordered"><thead><tr><th class="imgcol"></th><th class="tagcol">Tag</th><th class="namecol">Name</th><th class="gpcol">Games Played</th><th class="ratingcol">Rating</th></tr><tbody>';
     var tablefooter = '</tbody></table>';
     var tablebody = '';
     teams = data.teams;
     for (i = 0; i < teams.length; i++) {
       var currentrow = '<tr class="teamrow">';
+      currentrow += '<td><img src="/assets/img/teams/' + teams[i].team_id + '.png"></td>';
       currentrow += '<td>' + teams[i].tag + '</td>';
       currentrow += '<td><a href="' + teams[i].url + '">' + teams[i].name + '<a></td>';
       currentrow += '<td>' + teams[i].games_played + '</td>';
