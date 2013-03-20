@@ -68,6 +68,24 @@
   }
 }
 
+/* dota2 table styles
+-------------------------------------------------- */
+
+.dotatable td, .dotatable th {
+  vertical-align: middle;
+  text-align: center;
+  padding: 0px;
+}
+
+.dotatable .imgcol {
+  max-width: 250px;
+}
+
+.dotatable .imgcell {
+  max-width: 250px;
+  max-height: 150px;
+}
+
 /* sc2 table styles
 -------------------------------------------------- */
 .sctable td, .sctable th {
