@@ -71,10 +71,17 @@
 /* dota2 table styles
 -------------------------------------------------- */
 
+#dotatable {
+  max-width: 624px;
+}
+
+#dotatable th {
+  vertical-align: middle;
+}
+
 .dotatable td, .dotatable th {
   vertical-align: middle;
   text-align: center;
-  padding: 0px;
 }
 
 .dotatable .imgcol {
@@ -84,6 +91,7 @@
 .dotatable .imgcell {
   max-width: 250px;
   max-height: 150px;
+  padding: 0px;
 }
 
 /* sc2 table styles
