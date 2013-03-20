@@ -18,6 +18,27 @@
   cursor: default;
 }
 
+/* Styles for brackets
+-------------------------------------------------- */
+
+.brackettable {
+  border-collapse: collapse;
+  border: none;
+  font: small arial, helvetica, sans-serif;
+}
+.brackettable td {
+  width: 10em;
+  margin: 0;
+  padding: 0;
+}
+.underline {
+  border-bottom: 1px solid black;
+}
+
+.leftline {
+  border-left: 1px solid black;
+}
+
 /* Styles for profiles
 -------------------------------------------------- */
 .profiles .fadingdiv {
