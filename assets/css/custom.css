@@ -119,9 +119,13 @@
 }
 
 .dotatable .imgcell {
-  max-width: 250px;
-  max-height: 150px;
+  max-width: 125px;
+  max-height: 75px;
   padding: 0px;
+}
+
+.imgcell img {
+  max-height: 75px;
 }
 
 /* sc2 table styles
