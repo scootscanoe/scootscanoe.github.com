@@ -364,10 +364,17 @@ body {
 }
 
 /* Space out sub-sections more
--------------------------------------------------- */
+--------------------------------------------------
 section {
   padding-top: 80px;
   margin-top: -60px;
+}
+*/
+
+/* Too much space dawg
+--------------------------------------------------*/
+section {
+  padding-bottom: 5px;
 }
 
 /* Space out lists more
