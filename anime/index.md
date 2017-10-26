@@ -1,3 +1,9 @@
+---
+layout: page
+title: Scoot's Canoe Academy of Anime Rating
+subtitle: Awarders of the Anime Academy Award
+---
+
 Scoot's Canoe Academy of Anime Rating
 =====================================
 
