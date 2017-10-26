@@ -1,4 +1,48 @@
 ---
-layout: blog
-page: 1
+layout: page
+title: Blog
+subtitle: What's nu? Frequency
+blog: active
 ---
+
+{% for post in paginator.posts %}
+<div class="well">
+<div class="page-header blog-header">
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>Posted by {{ post.author}} on {{ post.date | date_to_long_string }}</p>
+</div>
+{{ post.content | replace:"more start -->","" | replace:"<!-- more end","" }}
+{% if post.content contains "<!-- more start -->" %}
+<p><a href="{{ post.url }}">Read more...</a></p>
+{% endif %}
+</div>
+{% endfor %}
+
+<div class="pagination">
+  <ul>
+    {% if paginator.previous_page %}
+    <li><a href="{{ paginator.previous_page_path }}">&laquo;</a></li>
+    {% else %}
+    <li class="disabled"><a href="#">&laquo;</a></li>
+    {% endif %}
+    
+    {% if paginator.page == 1 %}
+    <li class="active"><a href="/blog">1</a></li>
+    {% else %}
+    <li><a href="/blog">1</a></li>
+    {% endif %}
+    {% for count in (2..paginator.total_pages) %}
+    {% if count == paginator.page %}
+    <li class="active"><a href="/blog/{{ count }}">{{ count }}</a></li>
+    {% else %}
+    <li><a href="/blog/{{ count }}">{{ count }}</a></li>
+    {% endif %}
+    {% endfor %}
+    
+    {% if paginator.next_page %}
+    <li><a href="{{ paginator.next_page_path }}">&raquo;</a></li>
+    {% else %}
+    <li class="disabled"><a href="#">&raquo;</a></li>
+    {% endif %}
+  </ul>
+</div>
